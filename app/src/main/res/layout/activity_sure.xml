@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SureActivity">
+
+    <TextView
+        android:id="@+id/vartext"
+        android:layout_width="384dp"
+        android:layout_height="205dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/ts"
+        android:layout_width="293dp"
+        android:layout_height="243dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <Button
+        android:id="@+id/btnscan"
+        android:layout_width="166dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="292dp"
+        android:text="Scan Again"
+        android:textAlignment="center"
+        android:textColor="#595756"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/btnsearch"
+        app:layout_constraintTop_toBottomOf="@+id/vartext" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="166dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="292dp"
+        android:text="Search"
+        android:textAlignment="center"
+        android:textColor="#595756"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/vartext"
+        tools:layout_editor_absoluteX="34dp" />
+</android.support.constraint.ConstraintLayout>
